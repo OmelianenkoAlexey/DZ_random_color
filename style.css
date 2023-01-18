@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 95vh;
+    width: 97vw;
+}
+
+
+.container {
+    /* margin-left: auto;
+    margin-right: auto; */
+
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.item {
+    padding: 50px;
+    border: 2px solid black;
+}
